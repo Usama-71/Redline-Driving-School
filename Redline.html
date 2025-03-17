@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redline Driving School</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+        }
+        .navbar {
+            background-color: #b50000;
+            padding: 10px 0;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            margin-left: -50px;
+        }
+        .navbar-brand img {
+            max-height: 50px;
+            width: auto;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-right: -1px;
+        }
+        .navbar-brand span {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            font-size: 22px;
+            color: #dddada;
+            letter-spacing: 1px;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?car,driving') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .btn-redline {
+            background-color: #b50000;
+            color: white;
+        }
+        .btn-redline:hover {
+            background-color: #900000;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="assets/logo/ST.png" alt="Redline Logo">
+                <span>Redline Driving School</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="hero d-flex justify-content-center align-items-center text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Drive Smart with Redline</h1>
+            <p class="lead mt-3">
+                Welcome to Redline Driving School!, At Redline, we provide expert driving lessons for all skill levels, from beginners to experienced drivers.
+                Our courses include beginner lessons, advanced training, defensive driving, test preparation, refresher courses, and the Pass Plus Scheme to boost your confidence on the road. 
+            </p>
+            <p class="lead">
+                Just like Luton’s dustable base, we offer a strong yet flexible foundation, adapting to every learner’s needs.
+                Join us today and drive with skill and confidence! 🚗💨
+            </p>
+            <a href="#contact" class="btn btn-redline btn-lg mt-3">Enroll Now</a>
+        </div>
+    </header>
+    
+    <section id="services" class="py-5 text-center">
+        <div class="container">
+            <h2 class="fw-bold">Our Services</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Beginner Driving Lessons</h5>
+                            <p>Perfect for new drivers looking to learn the basics.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Advanced Driving Courses</h5>
+                            <p>Enhance your skills with specialized training for experienced drivers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Defensive Driving</h5>
+                            <p>Learn safe driving techniques to prevent accidents.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Test Preparation</h5>
+                            <p>Get expert help to pass your driving test with confidence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Refresher Courses</h5>
+                            <p>Ideal for those who haven't driven in a while and need practice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Pass Plus Scheme</h5>
+                            <p>Improve your skills after passing the driving test and gain extra experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="testimonials" class="py-5 bg-dark text-center">
+        <div class="container">
+            <h2 class="fw-bold">What Our Students Say</h2>
+            <p class="mt-3 fst-italic">"Redline helped me pass my driving test with confidence!"</p>
+            <p class="mt-3 fst-italic">"Excellent instructors and well-structured lessons."</p>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 text-center navbar-dark text-white">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-uppercase">Contact Us</h2>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/logo/Email.png" width="40" alt="Email Icon" class="me-3">
+                        <p class="fs-5"><a href="mailto:Drivingschoolredline@gmail.com" class="text-white text-decoration-none">Drivingschoolredline@gmail.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/logo/Phone.png" width="40" alt="Phone Icon" class="me-3">
+                        <p class="fs-5"><a href="tel:07367464065" class="text-white text-decoration-none">07367464065</a></p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/logo/Whatsapp.png" width="40" alt="WhatsApp Icon" class="me-3">
+                        <p class="fs-5"><a href="https://wa.me/+447367464065" target="_blank" class="text-white text-decoration-none">WhatsApp</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <h5 class="fw-bold mt-5">Follow Us</h5>
+            <div class="d-flex justify-content-center">
+                <a href="https://www.instagram.com/redlinedrivingschool?igsh=bTJ4NTkzc3FzZzNm&utm_source=qr" target="_blank" class="me-4">
+                    <img src="assets/logo/Instagram.png" width="40" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://www.tiktok.com/@redlinedrivingschool?_t=ZN-8ufnji3EkMA&_r=1" target="_blank">
+                    <img src="assets/logo/Tiktok.png" width="40" alt="TikTok" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center py-3 bg-dark">
+        <p>&copy; 2025 Redline Driving School. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
